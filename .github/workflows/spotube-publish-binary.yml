@@ -66,7 +66,7 @@ jobs:
 
       - name: Release to AUR
         if: ${{ !inputs.dry_run }}
-        uses: KSXGitHub/github-actions-deploy-aur@v2.7.2
+        uses: KSXGitHub/github-actions-deploy-aur@v3.0.1
         with:
           pkgname: spotube-bin
           pkgbuild: aur-struct/PKGBUILD
